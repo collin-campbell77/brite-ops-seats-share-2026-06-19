@@ -1,0 +1,251 @@
+<title>Regional Dispatch Coordinator — Position Profile</title>
+<style>
+  :root{
+    --ink:#16202e; --ink-soft:#41506a; --ink-faint:#6b7a93;
+    --line:#dfe4ec; --line-soft:#eceff4;
+    --bg:#f6f8fb; --card:#ffffff;
+    --cool:#0e7490; --cool-bg:#e6f5f8; --cool-line:#bfe4ec;
+    --warm:#b45309; --warm-bg:#fdf2e3; --warm-line:#f3dcb4;
+    --good:#15803d; --rule:#0f6f86;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.55;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:980px;margin:0 auto;padding:0 20px 80px}
+  header.hero{background:linear-gradient(135deg,#0c2233,#123a4a 60%,#0e7490);color:#eaf6fa;
+    padding:42px 20px 36px;border-bottom:3px solid #0a1a26}
+  .hero-in{max-width:980px;margin:0 auto;padding:0}
+  .eyebrow{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#7fd3e4;font-weight:700;margin:0 0 8px}
+  h1{font-size:clamp(28px,5vw,42px);line-height:1.08;margin:0 0 12px;font-weight:800;letter-spacing:-.02em}
+  .lede{font-size:clamp(15px,2.4vw,18px);color:#cfe9f1;max-width:62ch;margin:0}
+  .facts{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+  .fact{background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.18);border-radius:10px;
+    padding:9px 13px;font-size:13px;color:#eaf6fa}
+  .fact b{display:block;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#7fd3e4;font-weight:700;margin-bottom:1px}
+  section{margin-top:38px}
+  h2{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--cool);font-weight:800;
+    margin:0 0 14px;padding-bottom:8px;border-bottom:2px solid var(--line)}
+  h3{font-size:18px;margin:22px 0 8px;font-weight:700;letter-spacing:-.01em}
+  p{margin:0 0 12px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;
+    box-shadow:0 1px 2px rgba(20,32,46,.04)}
+  .pull{font-size:19px;font-weight:600;color:var(--ink);line-height:1.4;border-left:4px solid var(--cool);
+    padding:4px 0 4px 16px;margin:6px 0 18px}
+  .pull em{font-style:normal;color:var(--cool)}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  @media(max-width:680px){.grid2{grid-template-columns:1fr}}
+  .scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:12px;border:1px solid var(--line)}
+  table{border-collapse:collapse;width:100%;font-size:14px;background:var(--card);min-width:520px}
+  th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--line-soft);vertical-align:top}
+  thead th{background:#eef2f7;color:var(--ink-soft);font-size:11px;letter-spacing:.06em;text-transform:uppercase;font-weight:700}
+  tbody tr:last-child td{border-bottom:none}
+  td.owner{font-weight:700;white-space:nowrap}
+  .tag{display:inline-block;font-size:11px;font-weight:700;padding:2px 8px;border-radius:20px;letter-spacing:.03em}
+  .t-rdc{background:var(--cool-bg);color:var(--cool);border:1px solid var(--cool-line)}
+  .t-am{background:#ede9fe;color:#6d28d9;border:1px solid #ddd0fb}
+  .t-qp{background:#dcfce7;color:#15803d;border:1px solid #bbf2cb}
+  .t-sales{background:#fee2e2;color:#b91c1c;border:1px solid #f6c9c9}
+  .t-mike{background:#e2e8f0;color:#334155;border:1px solid #cbd5e1}
+  .mode{border-radius:14px;padding:20px 22px;border:1px solid}
+  .mode.cool{background:var(--cool-bg);border-color:var(--cool-line)}
+  .mode.warm{background:var(--warm-bg);border-color:var(--warm-line)}
+  .mode h3{margin-top:0}
+  .mode .badge{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+  .cool .badge{color:var(--cool)} .warm .badge{color:var(--warm)}
+  ol.flow{margin:0;padding:0;list-style:none;counter-reset:step}
+  ol.flow li{position:relative;padding:0 0 14px 40px;counter-increment:step}
+  ol.flow li:before{content:counter(step);position:absolute;left:0;top:0;width:26px;height:26px;border-radius:50%;
+    background:var(--cool);color:#fff;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center}
+  ol.flow.warm li:before{background:var(--warm)}
+  ol.flow li:not(:last-child):after{content:"";position:absolute;left:12.5px;top:28px;bottom:0;width:1.5px;background:var(--line)}
+  ol.flow b{display:block;font-size:15px}
+  ol.flow span{font-size:13.5px;color:var(--ink-soft)}
+  ul.clean{margin:8px 0 0;padding-left:20px}
+  ul.clean li{margin-bottom:7px}
+  .note{font-size:13px;color:var(--ink-faint)}
+  .hbflag{font-size:12.5px;line-height:1.5;color:var(--ink-soft);background:var(--warm-bg);
+    border:1px solid var(--warm-line);border-left:3px solid var(--warm);border-radius:8px;
+    padding:9px 13px;margin:14px 0 0}
+  .hbflag b{color:var(--warm)}
+  .roles dt{font-weight:700;margin-top:12px}
+  .roles dd{margin:2px 0 0;color:var(--ink-soft);font-size:14px}
+  .legend{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 12px}
+  footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--line);font-size:13px;color:var(--ink-faint)}
+</style>
+
+<header class="hero">
+  <div class="hero-in">
+    <p class="eyebrow">Position Profile</p>
+    <h1>Regional Dispatch Coordinator</h1>
+    <p class="lede">A seasonal, remote “air-traffic-control” role that runs the dispatch board across a cluster of territories — the connective tissue between the office, Sales, and the field crews.</p>
+    <div class="facts">
+      <div class="fact"><b>Type</b>Seasonal · remote</div>
+      <div class="fact"><b>Season</b>mid-Sept → end Feb</div>
+      <div class="fact"><b>Span</b>3–5 areas · ≤ ~$7M</div>
+      <div class="fact"><b>Reports to</b>Director of Operations</div>
+      <div class="fact"><b>Direct reports</b>None</div>
+      <div class="fact"><b>Peer to</b>Area Manager</div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <section>
+    <h2>Purpose of the role</h2>
+    <div class="card">
+      <p class="pull">The <em>Regional Dispatch Coordinator runs the board; the Area Manager owns the territory.</em></p>
+      <p>The Regional Dispatch Coordinator (RDC) owns the <strong>mechanical, real-time coordination</strong> of installation work across a cluster of territories — the dispatch board, the first-line customer and operational phone, the scheduling gate with Sales, and the end-of-season strike reconciliation. The Area Manager owns <strong>judgment, the customer account, field supervision, and the territory’s financial result</strong>.</p>
+      <p>The RDC is remote and centralized; the Area Manager is locally present and is the direct supervisor of the field crews. By absorbing the dispatch and back-office load, the RDC lets each Area Manager cover more ground than they otherwise could.</p>
+      <p>The role runs in <strong>two distinct modes</strong> across its season — <span style="color:var(--warm);font-weight:700">Install (throughput)</span> then <span style="color:var(--cool);font-weight:700">Strike (reconciliation)</span>. The work is persistent across the whole season rather than spiky: as live dispatch grows more demanding during install, reconciliation is light; during strike, dispatch is light while reconciliation becomes the core of the work.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Reporting &amp; compensation</h2>
+    <div class="grid2">
+      <div class="card">
+        <h3 style="margin-top:0">Where it sits</h3>
+        <ul class="clean">
+          <li><strong>Reports to the Director of Operations.</strong></li>
+          <li><strong>Peer to the Area Manager</strong> — supports them laterally; not above or below, with no direct reports.</li>
+          <li>Complex issues escalate to the <strong>Operations Manager</strong>, who also partners on larger commercial jobs and provides mobile support to Area Managers.</li>
+          <li>One RDC supports the Area Managers across its region; a Territory Manager is simply an Area Manager carrying a larger or less-developed area.</li>
+        </ul>
+        <p class="hbflag"><b>Handbook note:</b> This is a newly designed seat — the current handbook has no Regional Dispatch Coordinator. Today it assigns the daily schedule, the dispatch board, and crew management to the Territory Manager, and treats the Territory Manager as a separate seat above the Area Manager. This profile reflects the redesigned model: the RDC runs the board, and the Territory Manager is an Area Manager stretched over more ground rather than a tier of its own.</p>
+      </div>
+      <div class="card">
+        <h3 style="margin-top:0">Compensation</h3>
+        <ul class="clean">
+          <li><strong>Seasonal base pay</strong> for the ~5.5-month season, set at a level comparable to a standard Area Manager.</li>
+          <li>Eligible for a <strong>performance-based end-of-season bonus.</strong></li>
+          <li>The role rewards <strong>consistency and reliability</strong> — steady, accurate coordination sustained across the full season.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Scope &amp; boundaries</h2>
+    <p class="note">What the RDC owns, and where work hands off to adjacent roles.</p>
+    <div class="legend">
+      <span class="tag t-rdc">RDC</span><span class="tag t-am">Area Mgr</span>
+      <span class="tag t-qp">Quality Pro</span><span class="tag t-sales">Sales</span><span class="tag t-mike">Leadership</span>
+    </div>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Function</th><th>Owner</th><th>Notes</th></tr></thead>
+        <tbody>
+          <tr><td>Daily dispatch &amp; the schedule board</td><td class="owner"><span class="tag t-rdc">RDC</span></td><td>Builds and sequences routes; adjusts in real time, keeping the Area Manager aligned</td></tr>
+          <tr><td>First-line customer / operational phone</td><td class="owner"><span class="tag t-rdc">RDC</span></td><td>Scheduling, capacity, status, and Sales coordination</td></tr>
+          <tr><td>Scheduling gate with Sales</td><td class="owner"><span class="tag t-rdc">RDC</span></td><td>Sales clears hard install dates through the board’s capacity</td></tr>
+          <tr><td>Field-report monitoring &amp; re-slotting</td><td class="owner"><span class="tag t-rdc">RDC</span></td><td>Keeps the board matched to what’s actually happening</td></tr>
+          <tr><td>Operations &amp; P&amp;L reporting (compile)</td><td class="owner"><span class="tag t-rdc">RDC</span></td><td>Automated dashboards plus a weekly leadership sync</td></tr>
+          <tr><td>Strike reconciliation (consolidate)</td><td class="owner"><span class="tag t-rdc">RDC</span></td><td>Brings every job signal together in the deal profile</td></tr>
+          <tr><td>Field-crew supervision &amp; on-site blockers</td><td class="owner"><span class="tag t-am">AM</span></td><td>The immediate boss on the ground</td></tr>
+          <tr><td>Process / workflow decisions</td><td class="owner"><span class="tag t-am">AM</span></td><td>The RDC routes these to the Area Manager</td></tr>
+          <tr><td>Territory financial result (P&amp;L)</td><td class="owner"><span class="tag t-am">AM</span></td><td>What the Area Manager’s performance rides on</td></tr>
+          <tr><td>Damage / negligence judgment</td><td class="owner"><span class="tag t-am">AM</span></td><td>Assesses whether a crew was negligent</td></tr>
+          <tr><td>Early-season quality checks</td><td class="owner"><span class="tag t-am">AM</span></td><td>Establishes the Area Manager as the in-field authority before QP ramps</td></tr>
+          <tr><td>Install accuracy (design completed correctly)</td><td class="owner"><span class="tag t-qp">QP</span></td><td>Flagged during the season; within 48h of install once caught up</td></tr>
+          <tr><td>Booking, sales &amp; renewals</td><td class="owner"><span class="tag t-sales">Sales</span></td><td>Owns the customer up to the close, then hands the job to the RDC</td></tr>
+          <tr><td>Profit-share &amp; pay rulings</td><td class="owner"><span class="tag t-mike">Leadership</span></td><td>The RDC flags and recommends; the final call sits with leadership (Director of Operations / Operations Manager)</td></tr>
+          <tr><td>Procurement / restocking / overseas orders</td><td class="owner"><span class="tag t-mike">Supply Chain</span></td><td>March close-out — outside the RDC season</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>The season at a glance</h2>
+    <p class="note">Timing is approximate and varies by region.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Stage</th><th>Window</th><th>Mode</th><th>Core work</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Ramp / Build</strong></td><td>mid-Sept → early Oct</td><td>setup</td><td>Convert the sold book into a regional install schedule; stand up the board and capacity view</td></tr>
+          <tr><td><strong>Install / Peak</strong></td><td>Oct → late Dec</td><td><span style="color:var(--warm);font-weight:700">throughput</span></td><td>Daily dispatch, first-line phone, live monitoring and re-slotting, scheduling gate for Sales</td></tr>
+          <tr><td><strong>Service tail</strong></td><td>late Dec → early Jan</td><td>lighter</td><td>Repair dispatch for failed displays; less install, more maintenance</td></tr>
+          <tr><td><strong>Strike</strong></td><td>Jan (removals by <strong>Jan 31</strong>)</td><td><span style="color:var(--cool);font-weight:700">reconciliation</span></td><td>Light sequential removal dispatch plus return intake</td></tr>
+          <tr><td><strong>Audit</strong></td><td>February</td><td><span style="color:var(--cool);font-weight:700">reconciliation</span></td><td>Complete the reconciliation audit and warehouse improvements; season closes end of February</td></tr>
+          <tr><td><strong>Close-out</strong></td><td>March</td><td>—</td><td>Restocking and overseas orders — owned by Supply Chain, after the RDC season</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>A day in Install <span style="color:var(--warm)">· throughput mode</span></h2>
+    <div class="mode warm">
+      <span class="badge">build → launch → staggered streams → keep the board true → close &amp; rebuild</span>
+      <ol class="flow warm" style="margin-top:16px">
+        <li><b>Pre-dispatch (≈6:00–6:30, before crews roll)</b><span>Review the operations dashboard (weather / call-outs / traffic / staging by area); clear the Area Manager’s overnight queued questions; finalize the last ~20% of the board. The other 80% was built at yesterday’s end-of-day.</span></li>
+        <li><b>Group standup with Area Managers (≈10–15 min)</b><span>One short, structured call — today’s board, problem jobs, roster changes, capacity to give Sales. Held before crews roll, so it doesn’t collide with the inbound peak.</span></li>
+        <li><b>Launch (≈7:30)</b><span>Crews roll with a quick “rolling” confirmation from each crew lead. On-site blockers go to the <strong>Area Manager</strong>.</span></li>
+        <li><b>Repair Tech coordination (≈9:00 · 7:00 in peak)</b><span>Walk the pre-planned repair route. Same-day where routing allows, otherwise a queue builds — safety or customer escalation overrides and dispatches immediately.</span></li>
+        <li><b>Quality Pro coordination (≈11:00)</b><span>Job-by-job walk-through with specific notes and handoffs. Target: a quality check within 48 hours of install, once caught up.</span></li>
+        <li><b>Sustained monitoring (midday onward)</b><span>Keep reality matched to the board — re-slot, feed early-finishing crews, gate Sales’ hard dates, work customer and deferred items, capture incoming QP and repair findings.</span></li>
+        <li><b>End of day</b><span>Close every job (photos + notes, supervisor sign-off); reconcile installed-vs-scheduled; roll incompletes forward; build tomorrow’s 80%; post the queue for the Area Manager’s evening review; log crew-day records.</span></li>
+      </ol>
+      <p class="note" style="margin-top:14px"><strong>The assignment is also the labor-cost record.</strong> Each crew is assigned roughly $4–6k of revenue per day — to a Senior Tech with his Junior Tech(s) attached — which is what makes per-crew, per-job margin measurable.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>A day in Strike <span style="color:var(--cool)">· reconciliation mode</span></h2>
+    <div class="mode cool">
+      <span class="badge">light sequential dispatch + the consolidation audit</span>
+      <div class="grid2" style="margin-top:16px">
+        <div>
+          <h3>Removal &amp; intake</h3>
+          <ul class="clean">
+            <li>Senior Tech / Junior Tech crews remove — strike is the <em>second half</em> of the same labor cycle. Completing only the install half does not earn the profit share.</li>
+            <li>Crews work tight clusters, sequenced <strong>highest-revenue → furthest → back toward the warehouse</strong>.</li>
+            <li>Because it’s pre-sequenced, daily board work is light — <strong>roll incompletes forward and populate the next jobs</strong>. Crews are loaded heavily (~$10–15k, roughly twice the install rate) against the <strong>Jan 31</strong> deadline.</li>
+            <li>Returns are labeled by <strong>crew · customer · contents</strong> (a card per box on multi-box jobs). The warehouse crew reports actual returned items and damage, which updates the job’s deal profile.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>The three-way reconciliation</h3>
+          <p class="note" style="margin-top:0">The RDC consolidates signals captured by the people closest to the work.</p>
+          <ul class="clean">
+            <li><strong>Sales accuracy</strong> — line item vs. assigned product: was the job buildable as scoped? (unfinished / impossible quantity).</li>
+            <li><strong>Install accuracy</strong> — was the design completed correctly? Primarily the Quality Pro’s in-season flag, corroborated by what comes back.</li>
+            <li><strong>Damage</strong> — reported with a brief explanation; whether it was negligence is the Area Manager’s call.</li>
+            <li><strong>Eligibility roll-up</strong> — cycle complete + sales flags + quality scores + damage notes are compiled by the RDC; leadership rules on the profit share, with room for discretion.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Who the RDC works with</h2>
+    <div class="card roles">
+      <dl style="margin:0">
+        <dt>Area Manager (AM)</dt>
+        <dd>The in-field supervisor and owner of the customer account and territory result. The RDC’s primary day-to-day partner. A “Territory Manager” is an Area Manager covering a larger or less-developed area.</dd>
+        <dt>Senior Tech (ST)</dt>
+        <dd>Crew lead and installer. Earns production pay as a share of installed revenue — contingent on completing the full install-and-strike cycle and meeting install-accuracy standards.</dd>
+        <dt>Junior Tech (JT)</dt>
+        <dd>Works on a Senior Tech’s crew; attached to the crew for the day, which is how labor cost per job is captured.</dd>
+        <dt>Quality Pro (QP)</dt>
+        <dd>Inspector role responsible for install accuracy — checking that each design was completed correctly, within 48 hours of install once caught up.</dd>
+        <dt>Repair Tech (RT)</dt>
+        <dd>Handles repairs and service of failed displays on a planned route, with safety and escalation overrides.</dd>
+        <dt>Light Roller (LR)</dt>
+        <dd>Seasonal strike support; helps the warehouse crew process returns.</dd>
+        <dt>Warehouse (WA)</dt>
+        <dd>Stages the next day’s product against the schedule and processes returns during strike.</dd>
+        <dt>Sales</dt>
+        <dd>Dedicated team that books and renews work and owns the customer through the close, then hands sold jobs to the RDC to schedule.</dd>
+      </dl>
+    </div>
+  </section>
+
+  <footer>
+    Regional Dispatch Coordinator — position profile.
+  </footer>
+
+</div>
